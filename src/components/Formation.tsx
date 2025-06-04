@@ -32,7 +32,6 @@ const Formation = () => {
     },
     {
       title: "Aprenda a Programar com JS, HTML e CSS",
-      instructor: "Rodrigo Branas",
       status: "Completed",
       description:
         "Comprehensive programming course covering frontend fundamentals.",
@@ -79,12 +78,6 @@ const Formation = () => {
                   <h3 className="text-xl font-bold text-teal-400">
                     {course.title}
                   </h3>
-
-                  {course.instructor && (
-                    <p className="text-cyan-400 font-medium">
-                      by {course.instructor}
-                    </p>
-                  )}
 
                   <p className="text-gray-400 leading-relaxed text-sm">
                     {course.description}
