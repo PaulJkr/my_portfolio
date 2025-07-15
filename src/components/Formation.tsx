@@ -36,6 +36,11 @@ const Formation = () => {
       description:
         "Comprehensive programming course covering frontend fundamentals.",
     },
+    {
+      title: "AWS Cloud Practitioner",
+      status: "In Progress...",
+      description: "Fundamentals of AWS cloud services and architecture.",
+    },
   ];
 
   return (

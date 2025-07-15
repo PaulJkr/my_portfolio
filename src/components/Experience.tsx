@@ -9,12 +9,32 @@ const Experience = () => {
 
   const experiences = [
     {
-      period: "Jun 2023 – Aug 2024",
-      role: "Freelance Developer",
-      company: "Multiple Clients",
+      period: "May 2025 – Present",
+      role: "Software Developer",
+      company: "COSEKE Ltd",
       description:
-        "Worked on various React and MERN stack projects, delivering custom web solutions for different industries.",
-      technologies: ["React", "TypeScript", "Node.js", "MongoDB", "Express.js"],
+        "At COSEKE Limited, a Pan-African IT services provider, I've been immersed in service delivery environments while working on various React and MERN stack projects. I've delivered custom web solutions for different industries with a focus on responsiveness, documentation, and infrastructure monitoring. I've worked with ticketing systems to manage and resolve incidents, provided remote support to end-users, and ensured timely escalation of complex technical issues.",
+      technologies: [
+        "React",
+        "TypeScript",
+        "Node.js",
+        "MongoDB",
+        "Express.js",
+        "EDMS",
+      ],
+    },
+    {
+      period: " Mar 2022– Jul 2022",
+      role: "Network Support & IT Technician",
+      company: "Eldoret Hospital",
+      description:
+        "Provided comprehensive IT services including network infrastructure support and PHP web development. Configured and maintained business networks while developing operational tools in PHP to streamline processes in Claims, Registration, and Document Management departments. Combined hands-on experience in server administration, network troubleshooting, and custom web development to deliver complete technical solutions aligned with business requirements.",
+      technologies: [
+        "PHP",
+        "Network Configuration",
+        "Cisco Systems",
+        "Database Management",
+      ],
     },
   ];
 
@@ -45,7 +65,9 @@ const Experience = () => {
                 initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 animate={inView ? { opacity: 1, x: 0 } : {}}
                 transition={{ duration: 0.8, delay: 0.4 + index * 0.2 }}
-                className="relative"
+                className={`relative ${
+                  index < experiences.length - 1 ? "mb-12" : ""
+                }`}
               >
                 <div className="bg-gradient-to-r from-teal-500/10 to-cyan-500/10 rounded-2xl p-8 border border-teal-500/20 hover:border-teal-500/40 transition-all duration-300">
                   <div className="space-y-4">
