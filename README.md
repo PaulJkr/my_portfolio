@@ -15,10 +15,6 @@ A modern, responsive developer portfolio built to showcase my skills, personalit
 
 ---
 
-## 📸 Banner
-
-![Paul Omondi - Developer Portfolio Banner](https://via.placeholder.com/1200x400.png?text=Paul+Omondi+Portfolio)  
-> _Replace with your custom banner or use a free tool like Canva, Figma, or HeroBanner._
 
 ---
 
@@ -46,13 +42,6 @@ A modern, responsive developer portfolio built to showcase my skills, personalit
 
 ---
 
-## 🎞️ Demo
-
-![Portfolio Demo GIF](https://via.placeholder.com/800x500.gif?text=Demo+GIF+Here)
-
-> _Tip: Record a quick scroll through your site using Loom, Screen Studio, or OBS, and convert it to GIF using [ezgif.com](https://ezgif.com/)_
-
----
 
 ---
 
