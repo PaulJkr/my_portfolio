@@ -10,6 +10,21 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "KenyaSafe",
+      description:
+        " Frontend-only user interface for a next-gen disaster preparedness and emergency response platform. Designed for governments, NGOs, and community leaders, this system merges aesthetics, usability, and performance to support high-stakes emergency management workflows.",
+      technologies: ["React", "Tailwind CSS", "MongoDB"],
+      features: [
+        "Early Warning & Notifications",
+        "Incident Reporting",
+        "Resource & Shelter Directory",
+        "Responsive UI/UX",
+        "Community Messaging & Updates",
+      ],
+      github: "https://github.com/PaulJkr/KenyaSafe",
+      live: "https://kenyasafedisaster.netlify.app/",
+    },
+    {
       title: "Karibu Kenya Travels",
       description:
         "A comprehensive travel platform with real-time itinerary builder, PDF export, dynamic dropdowns, packing checklist with local & DB sync, infinite carousel slider, animated search suggestions, testimonials, and interactive map.",
