@@ -13,7 +13,7 @@ const Projects = () => {
       title: "KenyaSafe",
       description:
         " Frontend-only user interface for a next-gen disaster preparedness and emergency response platform. Designed for governments, NGOs, and community leaders, this system merges aesthetics, usability, and performance to support high-stakes emergency management workflows.",
-      technologies: ["React", "Tailwind CSS", "MongoDB"],
+      technologies: ["React", "Tailwind CSS"],
       features: [
         "Early Warning & Notifications",
         "Incident Reporting",
@@ -23,6 +23,21 @@ const Projects = () => {
       ],
       github: "https://github.com/PaulJkr/KenyaSafe",
       live: "https://kenyasafedisaster.netlify.app/",
+    },
+    {
+      title: "Umoja Farms",
+      description:
+        " A full-stack Agriculture E-commerce platform with advanced features like real-time inventory management, dynamic product filtering, and a responsive design. It includes a shopping cart with global context state management and user authentication.",
+      technologies: ["React", "Tailwind CSS", "MongoDB"],
+      features: [
+        "Farmer Dashboard",
+        "Buyer Dashboard",
+        "Admin Dashboard",
+        "Auth & Security",
+        "UX & Frontend Features",
+      ],
+      github: "https://github.com/PaulJkr/Umoja",
+      live: "#",
     },
     {
       title: "Karibu Kenya Travels",
