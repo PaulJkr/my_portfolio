@@ -67,23 +67,23 @@ const Projects = () => {
         "Contact / partnership / volunteer signup",
         "Gallery of training sessions",
       ],
-      github: "https://github.com/PaulJkr/fish-sell-app",
-      live: "#",
+      github: "https://github.com/PaulJkr/Evo-1",
+      live: "https://evolve-emergency.netlify.app/",
     },
     {
-      title: "Business Landing Page",
+      title: "Duka Digital",
       description:
-        "A modern landing page with Calendly integration, interactive pricing cards, testimonial sliders, and demo video walkthrough. Built with smooth animations and responsive design.",
+        "A digital platform to help small businesses launch and manage online stores. Built with smooth animations and responsive design.",
       technologies: ["React", "Tailwind CSS", "Framer Motion", "shadcn/ui"],
       features: [
-        "Calendly integration",
-        "Interactive pricing cards",
-        "Testimonial sliders",
-        "Demo video integration",
+        "Store builder for shop owners",
+        "Integrated e-commerce widget",
+        "Product listing and inventory management",
+        "Responsive web storefront",
         "Smooth animations",
       ],
-      github: "https://github.com/PaulJkr/business-landing-page",
-      live: "#",
+      github: "https://github.com/PaulJkr/duka_digital",
+      live: "https://dukadigital.netlify.app/",
     },
   ];
 
